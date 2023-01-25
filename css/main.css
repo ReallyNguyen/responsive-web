@@ -64,6 +64,17 @@ p {
   flex-direction: row;
 }
 
+.Companies {
+  display: flex;
+  flex-direction: row;
+}
+
+.Companies-Logo {
+  width: 170px;
+  height: 170px;
+  margin: 25px;
+}
+
 /* Small only */
 @media screen and (max-width: 39.9375em) {
   header {
