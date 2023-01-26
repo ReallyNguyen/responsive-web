@@ -10,26 +10,12 @@
   justify-content: center;
 }
 
-.founder {
+.social-box {
   display: flex;
-  justify-content: row;
+  padding: 10%;
 
 }
 
-.footer-boxes {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-
-
-
-
-.social-box-contents {
-  display: flex;
-  flex-direction: row;
-}
 
 
 article>div {

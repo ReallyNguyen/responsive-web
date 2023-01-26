@@ -10,28 +10,6 @@
   justify-content: center;
 }
 
-.founder {
-  display: flex;
-  justify-content: row;
-
-}
-
-.footer-boxes {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-
-
-
-
-.social-box-contents {
-  display: flex;
-  flex-direction: row;
-}
-
-
 article>div {
   margin: 15px;
 }

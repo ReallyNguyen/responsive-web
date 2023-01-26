@@ -10,25 +10,24 @@
   justify-content: center;
 }
 
-.founder {
-  display: flex;
-  justify-content: row;
-
-}
-
-.footer-boxes {
+.social-box {
   display: flex;
   justify-content: center;
   flex-direction: row;
+  padding: 5%;
+
 }
 
-
-
-
-
-.social-box-contents {
+.social-text-box {
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  padding-left: 40px;
+}
+
+.social-text-box-2 {
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
 }
 
 

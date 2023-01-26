@@ -1,8 +1,7 @@
 .nav-bar {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  margin: 50px;
+  margin: auto auto auto;
 }
 
 .introduction {
@@ -10,27 +9,13 @@
   justify-content: center;
 }
 
-.founder {
-  display: flex;
-  justify-content: row;
-
-}
-
-.footer-boxes {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-
-
-
-
-.social-box-contents {
+.social-box {
   display: flex;
   flex-direction: row;
-}
+  justify-content: space-between;
+  padding: 10%;
 
+}
 
 article>div {
   margin: 15px;

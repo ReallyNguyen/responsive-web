@@ -16,13 +16,23 @@
 
 }
 
-.footer-boxes {
+.twitter-box {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
+  padding: 5%;
+
 }
 
 
+
+.social-text-box {
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
+
+
+}
 
 
 

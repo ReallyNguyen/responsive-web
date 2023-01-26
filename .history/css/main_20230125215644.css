@@ -10,19 +10,21 @@
   justify-content: center;
 }
 
-.founder {
-  display: flex;
-  justify-content: row;
-
-}
-
-.footer-boxes {
+.recent-tweets {
   display: flex;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
+  padding: 5%;
+
 }
 
+.social-text-box {
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
 
+
+}
 
 
 
