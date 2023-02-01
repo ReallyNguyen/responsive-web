@@ -5,17 +5,28 @@
   margin: 50px;
 }
 
+.hamburger-menu {
+  display: flex;
+  justify-content: center;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
 .introduction {
   display: flex;
   justify-content: center;
 }
 
 .mobile-introduction {
-  margin: 9em;
+  margin: 2em;
+  font-family: 'Open Sans';
+  font-weight: lighter;
 }
 
 .thingsWeDo {
   text-align: center;
+  font-family: 'Open Sans';
+  font-weight: lighter;
 }
 
 .footer-boxes {
