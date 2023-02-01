@@ -5,15 +5,17 @@
   margin: 50px;
 }
 
-.mobile-introduction {
+.introduction {
   display: flex;
   justify-content: center;
 }
 
-.founder {
-  display: flex;
-  justify-content: row;
+.mobile-introduction {
+  margin: 9em;
+}
 
+.thingsWeDo {
+  text-align: center;
 }
 
 .footer-boxes {
@@ -27,6 +29,17 @@
   flex-direction: row;
 }
 
+.newsletter {
+  display: none;
+}
+
+.about-us {
+  display: none;
+}
+
+.flickr-photos {
+  display: none;
+}
 
 article>div {
   margin: 15px;
@@ -54,15 +67,19 @@ p {
   margin: 0px;
 }
 
+
+
 .Contents {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  text-align: center;
 }
 
 .Content {
   display: flex;
   flex-direction: row;
   margin: 15px;
+
 }
 
 .Boxes {
@@ -82,6 +99,7 @@ p {
   display: flex;
   flex-direction: row;
   margin: 50px;
+  display: none;
 }
 
 .Menu {
@@ -97,12 +115,18 @@ p {
 .Companies {
   display: flex;
   flex-direction: row;
+  display: none;
 }
 
 .Companies-Logo {
   width: 170px;
   height: 170px;
   margin: 25px;
+}
+
+.founder {
+  display: flex;
+  justify-content: center;
 }
 
 /* Small only */
