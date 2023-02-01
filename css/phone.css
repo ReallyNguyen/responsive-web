@@ -1,0 +1,261 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+}
+  
+.hamburger-menu {
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+.banner { 
+    display: none;
+}
+
+.introduction {
+    display: flex;
+    justify-content: center;
+}
+
+.mobile-introduction {
+    margin: 2em;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+}
+
+.Sample {
+    padding-left: 10%;
+    padding-right: 8%;
+    width: 100px;
+    height: 100px;
+}
+
+.Boxes {
+    padding-bottom: 5%;
+}
+.thingsWeDo {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    padding-bottom: 8%;
+}
+
+.Description {
+    font-family: 'Open Sans';
+}
+
+.paragraph-box {
+    display: flex;
+    text-align: left;
+    padding-left: 5%;
+    font-size: 70%;
+    color: rgb(96, 96, 96);
+}
+
+.topic {
+    text-align: left;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    font-weight: 900;
+}
+
+.Contents {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.founder {
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+}
+
+.intro-text-box {
+    margin-left: 10%;
+    width: 60%;
+    max-width: 30rem;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 60%;
+    color: aliceblue;
+}
+
+.peeweeherman {
+    font-style: normal;
+    font-weight: bolder;
+    font-family: 'Open Sans';
+    margin-left: 7%;
+    color: aliceblue;
+
+}
+
+.peewee {
+    display: block;
+    border-radius: 50%;
+    margin-top: 10%;
+}
+
+.footer-boxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.recent-tweets {
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 60%;
+    color: aliceblue;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    margin-left: 10%;
+}
+
+.social-box-contents {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 60%;
+    color: aliceblue;
+    padding: 2%;
+    width: 80%;
+}
+
+.social-text-box {
+    display: flex;
+    padding-left: 5%;
+    margin-top: 2%;
+}
+
+.minions {
+    color: rgb(121, 217, 255);
+    font-style: normal;
+    text-decoration: none;
+    padding-right: 2%;
+}
+
+.newsletter {
+    display: none;
+}
+
+.about-us {
+    display: none;
+}
+
+.flickr-photos {
+    display: none;
+}
+
+article>div {
+    margin: 15px;
+}
+
+.Title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5%;
+    margin-top: 0;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 80%;
+    color: rgb(0, 0, 0);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.topic {
+    margin: 0;
+}
+
+p {
+    margin: 0px;
+    color: rgb(96, 96, 96);
+}
+
+h1 {
+    font-weight: 200;
+}
+
+.Contents {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Content {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+
+}
+
+.Boxes-Phone  {
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Boxes-Tablet {
+    display: none;
+}
+
+.Sample {
+    margin: 15px;
+    width: 350px;
+    height: 350px;
+}
+
+.Bottom {
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    display: none;
+}
+
+.Menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.Tabs {
+    display: flex;
+    flex-direction: row;
+}
+
+.Companies {
+    display: flex;
+    flex-direction: row;
+    display: none;
+}
+
+.Companies-Logo {
+    width: 170px;
+    height: 170px;
+    margin: 25px;
+}
+
+.founder {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #16242f;
+
+}
