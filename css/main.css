@@ -2,14 +2,14 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 50px;
+  margin: 20px;
 }
 
 .hamburger-menu {
   display: flex;
   justify-content: center;
   margin-left: 20%;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .introduction {
@@ -23,16 +23,45 @@
   font-weight: lighter;
 }
 
+.Sample {
+  padding-left: 10%;
+  padding-right: 8%;
+  width: 100px;
+  height: 100px;
+}
+
+.Boxes {
+  padding-bottom: 5%;
+}
 .thingsWeDo {
   text-align: center;
   font-family: 'Open Sans';
   font-weight: lighter;
+  padding-bottom: 8%;
 }
 
-.footer {
-  background-color: #16242f;
+.Description {
+  font-family: 'Open Sans';
+}
 
+.paragraph-box {
+  display: flex;
+  text-align: left;
+  padding-left: 5%;
+  font-size: 70%;
+  color: rgb(96, 96, 96);
+}
 
+.topic {
+  text-align: left;
+  padding-left: 5%;
+  padding-bottom: 2%;
+  font-weight: 900;
+}
+
+.Contents {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .founder {
@@ -49,18 +78,22 @@
   font-weight: lighter;
   font-style: italic;
   font-size: 60%;
+  color: aliceblue;
 }
 
 .peeweeherman {
   font-style: normal;
   font-weight: bolder;
   font-family: 'Open Sans';
-  margin-left: 10%;
+  margin-left: 7%;
+  color: aliceblue;
 
 }
 
 .peewee {
-  border-radius: 9rem;
+  display: block;
+  border-radius: 50%;
+  margin-top: 10%;
 }
 
 .footer-boxes {
@@ -69,9 +102,41 @@
   flex-direction: row;
 }
 
+.recent-tweets {
+  font-family: 'Open Sans';
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 60%;
+  color: aliceblue;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  margin-left: 10%;
+}
+
 .social-box-contents {
   display: flex;
   flex-direction: row;
+  font-family: 'Open Sans';
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 60%;
+  color: aliceblue;
+  padding: 2%;
+  width: 80%;
+
+}
+
+.social-text-box {
+  display: flex;
+  padding-left: 5%;
+  margin-top: 2%;
+}
+
+.minions {
+  color: rgb(121, 217, 255);
+  font-style: normal;
+  text-decoration: none;
+  padding-right: 2%;
 }
 
 .newsletter {
@@ -94,7 +159,13 @@ article>div {
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding: 5%;
   margin-top: 0;
+  font-family: 'Open Sans';
+  font-weight: lighter;
+  font-style: normal;
+  font-size: 80%;
+  color: rgb(0, 0, 0);
 }
 
 main {
@@ -110,8 +181,12 @@ main {
 
 p {
   margin: 0px;
+  color: rgb(96, 96, 96);
 }
 
+h1 {
+  font-weight: 200;
+}
 
 
 .Contents {
