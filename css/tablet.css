@@ -5,7 +5,7 @@
     height: 2%;
     width: 8%;
 
-  }
+}
 
 .banner {
     width: 100%;
@@ -24,17 +24,7 @@ h1 {
     font-weight: 200;
 }
 
-.thingsWeDo {
-    padding: 5%;
-}
 
-.Contents {
-    display: grid;
-    grid-template-columns: 200px 200px;
-    grid-row: auto auto;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-}
 
 .Content {
     display: flex;
@@ -44,33 +34,19 @@ h1 {
 
 }
 
-.topic{
+.topic {
     text-align: center;
-    padding: 5%;
 }
 
 .paragraph-box {
     width: 110%;
     text-align: center;
-  
- 
+
+
 }
 
-.Boxes-Tablet {
-    display: grid;
-    grid-template-columns: 370px 490px;
-    grid-row: auto auto;
-    grid-column-gap: 2px;
-    grid-row-gap: 2px;
-    padding-bottom: 5%;
-}
-
-.Boxes-Phone {
-    display: none;
-}
 
 .Sample-blank {
     margin: 15px;
 
 }
-

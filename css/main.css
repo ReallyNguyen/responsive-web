@@ -9,12 +9,6 @@
   width: 100%;
 }
 
-.hamburger-menu {
-  display: flex;
-  justify-content: center;
-  margin-left: 20%;
-  margin-top: 3%;
-}
 
 .introduction {
   display: flex;
@@ -22,51 +16,45 @@
 }
 
 .mobile-introduction {
+  text-align: center;
   margin: 2em;
   font-family: 'Open Sans';
   font-weight: lighter;
 }
 
+.Boxes-Phone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Boxes-Tablet {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Boxes-Desktop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .Sample {
-  padding-left: 10%;
-  padding-right: 8%;
   width: 100px;
   height: 100px;
 }
 
-.Boxes {
-  padding-bottom: 5%;
-}
 .thingsWeDo {
   text-align: center;
   font-family: 'Open Sans';
   font-weight: lighter;
-  padding-bottom: 8%;
-}
-
-.Description {
-  font-family: 'Open Sans';
-}
-
-.paragraph-box {
-  display: flex;
-  text-align: left;
-  padding-left: 5%;
-  font-size: 70%;
-  color: rgb(96, 96, 96);
 }
 
 .topic {
   text-align: left;
-  padding-left: 5%;
-  padding-bottom: 2%;
   font-weight: 900;
-}
-
-.Contents {
-  padding-left: 10%;
-  padding-right: 10%;
-  
 }
 
 .founder {
@@ -113,8 +101,6 @@
   font-style: normal;
   font-size: 60%;
   color: aliceblue;
-  padding-top: 5%;
-  padding-bottom: 10%;
   margin-left: 10%;
 }
 
@@ -126,14 +112,12 @@
   font-style: normal;
   font-size: 60%;
   color: aliceblue;
-  padding: 2%;
   width: 80%;
 
 }
 
 .social-text-box {
   display: flex;
-  padding-left: 5%;
   margin-top: 2%;
 }
 
@@ -141,19 +125,7 @@
   color: rgb(121, 217, 255);
   font-style: normal;
   text-decoration: none;
-  padding-right: 2%;
-}
 
-.newsletter {
-  display: none;
-}
-
-.about-us {
-  display: none;
-}
-
-.flickr-photos {
-  display: none;
 }
 
 article>div {
@@ -164,7 +136,6 @@ article>div {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 5%;
   margin-top: 0;
   font-family: 'Open Sans';
   font-weight: lighter;
@@ -181,6 +152,7 @@ main {
 
 
 .topic {
+  text-align: center;
   margin: 0;
 }
 
@@ -193,18 +165,11 @@ h1 {
   font-weight: 200;
 }
 
-
-.Contents {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
 .Content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 15px;
-
+  align-items: center;
 }
 
 .Boxes {
@@ -224,7 +189,6 @@ h1 {
   display: flex;
   flex-direction: row;
   margin: 50px;
-  display: none;
 }
 
 .Menu {
@@ -256,7 +220,26 @@ h1 {
 
 footer {
   background-color: #16242f;
-  ;
+}
+
+.Description {
+  display: flex;
+  font-family: 'Open Sans';
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Contents {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.Boxes-All {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* Small only */
@@ -268,6 +251,61 @@ footer {
     margin: 15px;
     font-size: 10px;
   }
+
+  .hamburger-menu {
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    margin-top: 3%;
+  }
+
+  .paragraph-box {
+    display: flex;
+    text-align: left;
+    margin: 1%;
+    font-size: 70%;
+    color: rgb(96, 96, 96);
+  }
+
+  .Contents {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .Bottom {
+    display: none;
+  }
+
+  .Boxes-Just-Iphone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Boxes-Tablet {
+    display: none;
+  }
+
+  .Boxes-Desktop {
+    display: none;
+  }
+
+  .Boxes-All {
+    display: none;
+  }
+
+  .newsletter {
+    display: none;
+  }
+
+  .about-us {
+    display: none;
+  }
+
+  .flickr-photos {
+    display: none;
+  }
 }
 
 /* Medium and up */
@@ -276,7 +314,17 @@ footer {
     display: none;
   }
 
+  .Boxes-Phone {
+    display: none;
+  }
 
+  .Boxes-Just-Iphone {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
 
 }
 
@@ -290,12 +338,25 @@ footer {
     width: 8%;
 
   }
-  
+
+
+
+  .Contents>Content {
+    margin: 5%;
+  }
+
+  .Boxes-Desktop {
+    display: none;
+  }
 
 }
 
 /* Large and up */
-@media screen and (min-width: 64em) {}
+@media screen and (min-width: 64em) {
+  .Boxes-Tablet {
+    display: none;
+  }
+}
 
 /* Large only */
 @media screen and (min-width: 64em) and (max-width: 74.9375em) {}

@@ -4,7 +4,7 @@
     justify-content: center;
     margin: 20px;
 }
-  
+
 .hamburger-menu {
     display: flex;
     justify-content: center;
@@ -12,7 +12,7 @@
     margin-top: 3%;
 }
 
-.banner { 
+.banner {
     display: none;
 }
 
@@ -28,20 +28,14 @@
 }
 
 .Sample {
-    padding-left: 10%;
-    padding-right: 8%;
     width: 100px;
     height: 100px;
 }
 
-.Boxes {
-    padding-bottom: 5%;
-}
 .thingsWeDo {
     text-align: center;
     font-family: 'Open Sans';
     font-weight: lighter;
-    padding-bottom: 8%;
 }
 
 .Description {
@@ -51,21 +45,13 @@
 .paragraph-box {
     display: flex;
     text-align: left;
-    padding-left: 5%;
     font-size: 70%;
     color: rgb(96, 96, 96);
 }
 
 .topic {
     text-align: left;
-    padding-left: 5%;
-    padding-bottom: 2%;
     font-weight: 900;
-}
-
-.Contents {
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 .founder {
@@ -112,8 +98,6 @@
     font-style: normal;
     font-size: 60%;
     color: aliceblue;
-    padding-top: 5%;
-    padding-bottom: 10%;
     margin-left: 10%;
 }
 
@@ -125,13 +109,11 @@
     font-style: normal;
     font-size: 60%;
     color: aliceblue;
-    padding: 2%;
     width: 80%;
 }
 
 .social-text-box {
     display: flex;
-    padding-left: 5%;
     margin-top: 2%;
 }
 
@@ -139,7 +121,6 @@
     color: rgb(121, 217, 255);
     font-style: normal;
     text-decoration: none;
-    padding-right: 2%;
 }
 
 .newsletter {
@@ -162,7 +143,6 @@ article>div {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 5%;
     margin-top: 0;
     font-family: 'Open Sans';
     font-weight: lighter;
@@ -204,9 +184,8 @@ h1 {
 
 }
 
-.Boxes-Phone  {
+.Boxes-Phone {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
 }
 
