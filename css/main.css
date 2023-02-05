@@ -9,6 +9,13 @@
   width: 100%;
 }
 
+/* you adjust the height and width. You can also add color here!!
+.home { 
+  width: 50%;
+  height: 50%;
+  background-color: green;
+}
+*/
 
 .introduction {
   display: flex;
@@ -64,7 +71,6 @@
 }
 
 .intro-text-box {
-  margin-left: 10%;
   width: 60%;
   max-width: 30rem;
   font-family: 'Open Sans';
@@ -74,25 +80,29 @@
   color: aliceblue;
 }
 
+.peeweetext {
+  margin-left: 5%;
+}
+
 .peeweeherman {
   font-style: normal;
   font-weight: bolder;
   font-family: 'Open Sans';
-  margin-left: 7%;
   color: aliceblue;
 
 }
 
 .peewee {
-  display: block;
+  width: 9%;
   border-radius: 50%;
-  margin-top: 10%;
+
 }
 
 .footer-boxes {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  align-items: center;
 }
 
 .recent-tweets {
@@ -191,6 +201,27 @@ h1 {
   margin: 50px;
 }
 
+.footer-boxes>div>h2 {
+  color: aliceblue;
+  font-family: 'Open Sans';
+}
+
+.footer-boxes>div>h2> {
+  color: aliceblue;
+  font-family: 'Open Sans';
+}
+
+.about-us-box>p {
+  color: aliceblue;
+  font-family: 'Open Sans';
+}
+
+.newsletter-box>p {
+  color: aliceblue;
+  font-family: 'Open Sans';
+}
+
+
 .Menu {
   display: flex;
   flex-direction: column;
@@ -204,7 +235,7 @@ h1 {
 .Companies {
   display: flex;
   flex-direction: row;
-  display: none;
+  justify-content: center;
 }
 
 .Companies-Logo {
@@ -233,6 +264,11 @@ footer {
   display: flex;
   flex-direction: row;
   text-align: center;
+}
+
+.Companies-Logo {
+  width: 10%;
+  height: 10%;
 }
 
 .Boxes-All {
@@ -339,6 +375,12 @@ footer {
 
   }
 
+  .footer-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+  }
 
   .Contents {
     display: grid;
