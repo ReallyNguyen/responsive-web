@@ -340,10 +340,12 @@ footer {
   }
 
 
-
-  .Contents>Content {
-    margin: 5%;
+  .Contents {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
   }
+
 
   .Boxes-Desktop {
     display: none;
