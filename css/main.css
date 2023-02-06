@@ -109,6 +109,8 @@
   align-items: center;
 }
 
+
+
 .p3 {
   color: white;
 
@@ -312,6 +314,8 @@ h1 {
   font-family: 'Open Sans';
 }
 
+
+
 .about-us-box>p {
   color: aliceblue;
   font-family: 'Open Sans';
@@ -370,6 +374,20 @@ footer {
 .Companies-Logo {
   width: 10%;
   height: 10%;
+}
+
+.footer-boxes {
+  display: flex;
+  flex-direction: row;
+}
+
+.photos{
+  display: grid;
+  flex-wrap: wrap;
+  grid-template-columns: 3rem 3rem 3rem;
+  column-gap: 1rem;
+  row-gap: 1rem;
+
 }
 
 .Boxes-All {
@@ -462,6 +480,7 @@ footer {
 
   .flickr-photos {
     display: none;
+    
   }
 }
 
