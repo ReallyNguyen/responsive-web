@@ -10,7 +10,7 @@
 }
 
 .home {
-  background-color: rgb(102, 211, 102);
+  background-color: #25c389;
   font-family: 'Open Sans';
   color: white;
   display: flex;
@@ -30,43 +30,83 @@
 }
 
 .pages {
-  background-color: rgb(255, 229, 57);
+  background-color: #ffb901;
   font-family: 'Open Sans';
   color: white;
   display: flex;
   flex-direction: column;
   padding: 1rem;
+}
+
+.pages-circle {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: #ffc634;
+  justify-content: center;
+  align-items: center;
 }
 
 .blog {
-  background-color: rgb(253, 102, 102);
+  background-color: #de6262;
   font-family: 'Open Sans';
   color: white;
   display: flex;
   flex-direction: column;
   padding: 1rem;
+}
 
+.blog-circle {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: #e78383;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio {
-  background-color: rgb(0, 137, 201);
+  background-color: #1691bd;
   font-family: 'Open Sans';
   color: white;
   display: flex;
   flex-direction: column;
   padding: 1rem;
+}
 
+.portfolio-circle {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: #42a9cc;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-two {
-  background-color: rgb(79, 79, 187);
+  background-color: #166ba2;
   font-family: 'Open Sans';
   color: white;
   display: flex;
   flex-direction: column;
   padding: 1rem;
+}
 
-
+.home-two-circle {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: #4589b8;
+  justify-content: center;
+  align-items: center;
 }
 
 .p3 {
@@ -157,7 +197,6 @@
 .peewee {
   width: 9%;
   border-radius: 50%;
-
 }
 
 .footer-boxes {
@@ -369,6 +408,26 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+  }
+
+  .home {
+    display: none;
+  }
+
+  .pages {
+    display: none;
+  }
+
+  .blog {
+    display: none;
+  }
+
+  .portfolio {
+    display: none;
+  }
+
+  .home-two {
+    display: none;
   }
 
   .Bottom {
