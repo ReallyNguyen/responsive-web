@@ -9,13 +9,64 @@
   width: 100%;
 }
 
-/* you adjust the height and width. You can also add color here!!
 .home { 
-  width: 50%;
-  height: 50%;
-  background-color: green;
+  background-color: rgb(102, 211, 102);
+  font-family: 'Open Sans';
+  color: white;  
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
 }
-*/
+
+.pages {
+  background-color: rgb(255, 229, 57);
+  font-family: 'Open Sans';
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.blog {
+  background-color: rgb(253, 102, 102);
+  font-family: 'Open Sans';
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+
+}
+
+.portfolio {
+  background-color: rgb(0, 137, 201);
+  font-family: 'Open Sans';
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+
+}
+
+.home-two {
+  background-color: rgb(79, 79, 187);
+  font-family: 'Open Sans';
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+
+  
+}
+
+.p3 {
+  color: white;
+
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+}
 
 .introduction {
   display: flex;
