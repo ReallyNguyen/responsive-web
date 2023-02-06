@@ -9,13 +9,24 @@
   width: 100%;
 }
 
-.home { 
+.home {
   background-color: rgb(102, 211, 102);
   font-family: 'Open Sans';
-  color: white;  
+  color: white;
   display: flex;
   flex-direction: column;
   padding: 1rem;
+}
+
+.home-circle {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: #56caa3;
+  justify-content: center;
+  align-items: center;
 }
 
 .pages {
@@ -55,7 +66,7 @@
   flex-direction: column;
   padding: 1rem;
 
-  
+
 }
 
 .p3 {
